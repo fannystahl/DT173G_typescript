@@ -11,7 +11,7 @@ class TenWords {
         this.file = fileName;
         }
 
-    Count() {
+    Count(): void {
         
         //Read in the file
         fs.readFile(this.file, 'utf8', function(err, data) { // Read all of the file content 
